@@ -23,9 +23,43 @@ L'objectif de ce projet est d'étudier, d'implémenter et d'optimiser des **Rés
 ├── notebooks/              # Jupyter Notebooks pour l'exploration (EDA) et les expérimentations
 ├── models/                 # Poids des modèles sauvegardés (.pth)
 ├── results/                # Courbes d'apprentissage, matrices de confusion, visualisations
-├── README.md               # Description du projet (ce fichier)
-└── requirements.txt        # Liste des dépendances Python (à venir)
+├── README.md               # Description du projet
+└── environnment.yml        # Liste des dépendances Python
 ```
+
+## Installation et Reproductibilité
+
+Ce projet utilise [Conda](https://docs.conda.io/en/latest/) pour garantir une gestion stricte des dépendances (Data Science / Deep Learning). L'environnement a été configuré pour des machines fonctionnant sous Windows (incluant les pilotes CUDA pour l'accélération GPU).
+
+### 1. Cloner le dépôt
+Ouvrez votre terminal et clonez ce projet en local :
+```bash
+git clone https://github.com/DevTounsi/Cats-vs-Dogs-AC20-Project.git
+cd Cats-vs-Dogs-AC20-Project
+```
+### 2. Créer l'environnement virtuel
+À la racine du projet, exécutez la commande suivante pour recréer l'environnement à partir du fichier de configuration :
+
+```bash
+conda env create -f environment.yml
+```
+
+### 3. Activer l'environnement
+Une fois l'installation terminée, activez l'environnement :
+
+```bash
+conda activate ac20
+```
+
+### 4. Lancer le projet
+Vous pouvez désormais démarrer l'interface de développement (Jupyter Lab est inclus dans l'environnement) :
+
+```bash
+jupyter lab
+```
+
+Le code est maintenant documenté de manière professionnelle. Puisqu'il s'agit d'un projet
+
 
 ##  Auteur
 **Abd-Allah AMINI** - Étudiant à l'UTBM (TC04)
