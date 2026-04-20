@@ -1,0 +1,38 @@
+# Environnements virtuels Python
+venv/
+.env/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Dossiers spécifiques au projet (Ne JAMAIS commiter les données brutes)
+data/
+datasets/
+models/
+results/
+logs/
+*.pth      # Poids des modèles PyTorch
+*.pt       # Poids des modèles PyTorch
+*.ckpt     # Checkpoints PyTorch Lightning (si utilisé plus tard)
+
+# Fichiers générés par Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE et OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Autres
+*.log
+*.sqlite
+*.pdf
+*.docx
+contexte.md
