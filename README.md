@@ -23,6 +23,7 @@ L'objectif de ce projet est d'étudier, d'implémenter et d'optimiser des **Rés
 ├── notebooks/              # Jupyter Notebooks pour l'exploration (EDA) et les expérimentations
 ├── models/                 # Poids des modèles sauvegardés (.pth)
 ├── results/                # Courbes d'apprentissage, matrices de confusion, visualisations
+├── scripts/                # Scripts python
 ├── README.md               # Description du projet
 └── environnment.yml        # Liste des dépendances Python
 ```
