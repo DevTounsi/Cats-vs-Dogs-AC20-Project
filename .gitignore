@@ -15,6 +15,7 @@ logs/
 *.pth      # Poids des modèles PyTorch
 *.pt       # Poids des modèles PyTorch
 *.ckpt     # Checkpoints PyTorch Lightning (si utilisé plus tard)
+contexte.md
 
 # Fichiers générés par Python
 __pycache__/
@@ -35,8 +36,7 @@ Thumbs.db
 *.sqlite
 *.pdf
 *.docx
-contexte.md
 
 # Autres dossiers
-Rapport/
 Consigne/
+Rapport/
