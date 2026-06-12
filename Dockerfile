@@ -3,11 +3,7 @@ FROM python:3.10-slim
 
 # Install system dependencies needed for OpenCV, YOLOv8, and matplotlib
 RUN apt-get update && apt-get install -y \
-<<<<<<< HEAD
     libgl1 \
-=======
-    libgl1-mesa-glx \
->>>>>>> 796207b56897408740c00c297d3c086095e75fa0
     libglib2.0-0 \
     libgomp1 \
     && rm -rf /var/lib/apt/lists/*

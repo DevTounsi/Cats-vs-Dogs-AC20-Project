@@ -1,5 +1,6 @@
 ---
 title: AC20 Cats VS Dogs
+emoji: 🐱🐶
 colorFrom: indigo
 colorTo: blue
 sdk: docker
