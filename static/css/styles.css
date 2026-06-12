@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6, .logo-title {
     height: 100vh;
     z-index: 10;
     transition: width var(--transition-speed) ease, padding var(--transition-speed) ease;
+<<<<<<< HEAD
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
@@ -102,6 +103,8 @@ h1, h2, h3, h4, h5, h6, .logo-title {
 }
 .sidebar::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.2);
+=======
+>>>>>>> 796207b56897408740c00c297d3c086095e75fa0
 }
 
 .sidebar-logo {

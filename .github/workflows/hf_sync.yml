@@ -1,0 +1,25 @@
+name: Sync to Hugging Face Spaces
+
+on:
+  push:
+    branches: [main]
+  # Allows manual triggering from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      # Sync files to Hugging Face Space using a HF token stored in GitHub secrets
+      - name: Push to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          # Replace 'VOTRE_USERNAME' and 'VOTRE_SPACE_NAME' with your actual HF username and Space name
+          git push --force https://user:$HF_TOKEN@huggingface.co/spaces/VOTRE_USERNAME/VOTRE_SPACE_NAME main

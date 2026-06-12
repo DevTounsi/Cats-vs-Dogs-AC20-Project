@@ -1,6 +1,5 @@
 ---
 title: AC20 Cats VS Dogs
-emoji: 🐱🐶
 colorFrom: indigo
 colorTo: blue
 sdk: docker
@@ -10,7 +9,7 @@ pinned: false
 # Classification d'Images (Chien vs Chat) avec CNN - Projet AC20 UTBM
 
 [![Hugging Face Spaces](https://img.shields.github.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/AbTounsi/AC20_Cats-VS-Dogs)
-🚀 **Démo interactive en ligne :** [abtounsi-ac20-cats-vs-dogs.hf.space](https://abtounsi-ac20-cats-vs-dogs.hf.space)
+**Démo interactive en ligne :** [abtounsi-ac20-cats-vs-dogs.hf.space](https://abtounsi-ac20-cats-vs-dogs.hf.space)
 
 ##  Description du Projet
 Ce dépôt contient le code source et les expériences liés à mon projet de l'Unité d'Enseignement **AC20** à l'**Université de Technologie de Belfort-Montbéliard (UTBM)**.
