@@ -1,3 +1,12 @@
+---
+title: AC20 Cats VS Dogs
+emoji: 🐱🐶
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+pinned: false
+---
+
 # Classification d'Images (Chien vs Chat) avec CNN - Projet AC20 UTBM
 
 ##  Description du Projet

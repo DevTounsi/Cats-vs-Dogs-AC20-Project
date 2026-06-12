@@ -1,42 +1,33 @@
-# Environnements virtuels Python
+# Large dataset directories (never commit local raw datasets)
+data/
+datasets/
+temp/
+
+# Python virtual environments
 venv/
 .env/
 env/
 .venv/
+*.venv
 env.bak/
 venv.bak/
 
-# Dossiers spécifiques au projet (Ne JAMAIS commiter les données brutes)
-data/
-datasets/
-models/
-results/
-logs/
-*.pth      # Poids des modèles PyTorch
-*.pt       # Poids des modèles PyTorch
-*.ckpt     # Checkpoints PyTorch Lightning (si utilisé plus tard)
-contexte.md
-
-# Fichiers générés par Python
+# Python generated files and caches
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyd
 
-# Jupyter Notebooks
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# IDE et OS
+# IDE and OS specific files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Autres
+# Local development logs and AI agent scratchpads
 *.log
-*.sqlite
-*.pdf
-*.docx
-
-# Autres dossiers
-Consigne/
-Rapport/
+.antigravitycli/
+scratch/
