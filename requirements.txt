@@ -1,0 +1,12 @@
+# Install CPU version of PyTorch for faster and lighter builds on Hugging Face Spaces
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+Flask
+Flask-Cors
+numpy
+Pillow
+matplotlib
+ultralytics
+werkzeug
