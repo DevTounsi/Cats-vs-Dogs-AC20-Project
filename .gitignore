@@ -2,6 +2,7 @@
 data/
 datasets/
 temp/
+Rapport/
 
 # Python virtual environments
 venv/
